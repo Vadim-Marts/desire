@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -116,7 +117,7 @@
           </div>
         </div>
       </section>
-      <section class="new-collection">
+      <section class="new-collection" data-aos="fade-right">
         <div class="container-fluid">
           <h3 class="new-collection__title">
             Furniture new collection
@@ -183,7 +184,7 @@
           </div>
         </div>
       </section>
-      <section class="decor">
+      <section class="decor" data-aos="fade-left">
         <div class="container">
           <h2 class="decor__title">
             Aesthetic 
@@ -194,7 +195,7 @@
           </p>
         </div>
       </section>
-      <section class="works-path">
+      <section class="works-path" data-aos="fade-right">
         <div class="container">
           <h3 class="works-path__title">
             How it works
@@ -226,7 +227,7 @@
           </div>
         </div>
       </section>
-      <div class="gallery">
+      <div class="gallery" data-aos="zoom-out">
         <div class="container-fluid">
           <div class="gallery__buttons">
             <button class="gallery__btn" data-filter=".bedroom">Bedroom furniture</button>
@@ -330,7 +331,7 @@
           </div>
         </div>
       </div>
-      <section class="blog-box">
+      <section class="blog-box" data-aos="flip-left">
         <div class="container">
           <h3 class="blog-box__title">
             More inspiration ideas in our blog
@@ -436,6 +437,10 @@
 
 
   <script src="js/main.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

@@ -7,6 +7,7 @@
   <title>About</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -84,14 +85,14 @@
       </div>
 
       <section class="about">
-        <div class="about__prev">
+        <div class="about__prev" data-aos="fade-up">
           <div class="container">
             <h2 class="about__prev-title">
               About Us
             </h2>
           </div>
         </div>
-        <div class="about__content">
+        <div class="about__content" data-aos="fade-up-left">
           <div class="container">
             <h3 class="about__title">  
               Balance in the simple through an informed marriage of design, functional and craft    
@@ -106,13 +107,13 @@
             </div>
           </div>
         </div>
-        <div class="about__popup">
+        <div class="about__popup" data-aos="fade-up-right">
           <a class="about__popup-play" data-fancybox href="https://www.youtube.com/watch?v=Z6WqKS9jXJk">
             <img class="about__popup-imgbtn" src="images/play-button.svg" alt="play button">
           </a>
         </div>
       </section>
-      <section class="inspiration">
+      <section class="inspiration" data-aos="fade-up-left">
         <div class="container-fluid">
           <div class="inspiration__inner">
             <img class="inspiration__images" src="images/inspiration-decor.png" alt="images">
@@ -157,7 +158,7 @@
           </div>
         </div>
       </section>
-      <div class="partrners">
+      <div class="partrners" data-aos="fade-up-left">
         <div class="conteiner-fluid">
           <div class="partrners__items">
             <img class="partrners__item" src="images/partners/partner-1.svg" alt="partner">
@@ -168,7 +169,7 @@
           </div>
         </div>
       </div>
-      <div class="collection">
+      <div class="collection" data-aos="fade-up-right">
         <a class="collection__item">
           <img class="collection__images" src="images/content/collection-1.jpg" alt="collection">
           <div class="collection__info">
@@ -290,7 +291,12 @@
 
 
 
+  
   <script src="js/main.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

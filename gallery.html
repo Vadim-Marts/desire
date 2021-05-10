@@ -7,6 +7,7 @@
   <title>Gallery</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
@@ -82,7 +83,7 @@
           </ul>
         </div>
       </div>
-      <div class="gallery gallery-page">
+      <div class="gallery gallery-page" data-aos="zoom-out">
         <div class="container-fluid">
           <div class="gallery__buttons">
             <button class="gallery__btn" data-filter=".bedroom">Bedroom furniture</button>
@@ -327,6 +328,10 @@
 
 
   <script src="js/main.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
